@@ -1,3 +1,4 @@
 credentials.json
 token.pickle
 output.ics
+.env
