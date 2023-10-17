@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t showing-time-sync .
+docker run -e EMAIL=$(grep EMAIL .env | cut -d '=' -f 2) showing-time-sync
