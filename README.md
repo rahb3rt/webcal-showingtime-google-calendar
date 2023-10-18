@@ -4,6 +4,8 @@
 
 - cedentials.json - Must be generated on Google Cloud Console
 - Set URI and Redirect `URI: http://localhost:8080 and http://localhost:8080/`
+- SET EMAIL to your Google Calendar
+- Set CAL to your ShowingTime Calendar URL 
 
 This script performs various operations related to the Google Calendar and ICS file format. Below is a step-by-step breakdown of what the script does:
 
