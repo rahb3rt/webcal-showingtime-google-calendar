@@ -8,7 +8,7 @@ from icalendar import Calendar, Event
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 email = os.getenv('EMAIL')
 url = f'https://www.googleapis.com/calendar/v3/calendars/{email}/events'
-calendar = "https://showingti.me/cal/GpFp7GIp9SYB9sc8"
+calendar = os.getenv('CAL')
 
 response = requests.get(calendar)
 with open('output.ics', 'wb') as f:
